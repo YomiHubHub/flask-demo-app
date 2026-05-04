@@ -24,6 +24,6 @@ jobs:
 
       - name: Build and push Docker image
         run:
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-app:${{ env.TAG }} .
-          docker push ${{ secrets.DOCKER_USERNAME }}/flask-app:${{ env.TAG }}
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-app:latest${{ env.TAG }} .
+          docker push ${{ secrets.DOCKER_USERNAME }}/flask-app:latest${{ env.TAG }}
      
