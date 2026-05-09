@@ -34,7 +34,7 @@ def home():
             <button type="submit">Submit</button>
         </form>
 
-        {"<h2>HELLO, " + name + "!</h2>" if name else ""}
+        {"<h2>HELLO There, " + name + "!</h2>" if name else ""}
     </body>
     </html>
     """
